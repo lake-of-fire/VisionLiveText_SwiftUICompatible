@@ -5,6 +5,7 @@
 //  Created by Shunzhe on 2022/06/16.
 //
 
+#if os(iOS)
 import SwiftUI
 
 @available(iOS 16.0, *)
@@ -45,3 +46,4 @@ public struct PickImageAndShowLiveText: View {
     }
     
 }
+#endif

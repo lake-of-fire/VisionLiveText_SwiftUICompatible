@@ -5,6 +5,7 @@
 //  Created by Shunzhe on 2022/06/16.
 //
 
+#if os(iOS)
 #if canImport(VisionKit)
 
 import SwiftUI
@@ -70,4 +71,5 @@ public struct ScanAndSelectTextView: View {
     
 }
 
+#endif
 #endif
